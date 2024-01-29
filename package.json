@@ -12,7 +12,7 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "vite-plugin-svgr": "^3.2.0"
+    "vite-plugin-svgr": "^3.3.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.14",
@@ -23,5 +23,10 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.1",
     "vite": "^4.4.0"
-  }
+  },
+  "description": "Deze tutorial is ontwikkelt om je stapsgewijs wegwijs te maken in React, naar aanleiding van de content uit de cursus *React Fundamentels* op EdHub. Je maakt een SPA door gebruik te maken van HTML, CSS, afbeeldingen, SVG's en eventlisteners in React.",
+  "main": "vite.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
