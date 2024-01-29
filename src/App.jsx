@@ -6,6 +6,12 @@ import IjsblokjesImage from './assets/ijsblokjes.jpg';
 import { ReactComponent as ShoppingCart } from './assets/winkelmandje.svg';
 
 function App() {
+    //funtions
+    function logClick() {
+        console.log('you clicked');
+    }
+
+    //return-statements
     return (
         <>
             <nav>
@@ -18,7 +24,7 @@ function App() {
             </nav>
             <header>
                 <h1>Fruit Perfection</h1>
-                <button type="button">Shop nu</button>
+                <button type="button" onClick={logClick}>Shop nu</button>
             </header>
             <main>
                 <article className="product">
