@@ -5,6 +5,7 @@ import LimoenImage from './assets/limoenen.png';
 import IjsblokjesImage from './assets/ijsblokjes.jpg';
 import { ReactComponent as ShoppingCart } from './assets/winkelmandje.svg';
 
+
 function App() {
     //funtions
     function logClick() {
